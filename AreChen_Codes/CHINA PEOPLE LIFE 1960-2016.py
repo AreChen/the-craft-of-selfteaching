@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import  numpy as np
 from pylab import *
-mpl.rcParams['font.sans-serif']=['SimHei']
+mpl.rcParams['font.sans-serif']=['SimHei'] #解决中文显示
 data = np.genfromtxt('life-expectancy-china-1960-2016.txt',delimiter=',',names=['x','y'])
 info1960 = data[0][1]
 info2016 = data[-1][1]
