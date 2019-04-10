@@ -15,4 +15,3 @@ ht.pie(
     )
 ht.savefig('UniStudent_Major_Match.png',transparent=True)
 ht.show()
-
